@@ -58,7 +58,7 @@ function getBooksByAuthor(authorName) {
 }
 
 function addBooks(books) {
-  return Array.prototype.push(bookArray,books)
+  return Array.prototype.push(bookArray,books);
 }
 
 function getAuthors() {
@@ -90,10 +90,10 @@ function book(title, author, numberOfPages, publishDate){
 
 var bookArray=[];
 var bookArray2=[];
-var book1=new book('Book1', 'Luke', 130, new Date('May 31 1985'))
-var book2=new book('Book2', 'Coco', 126, new Date('July 26 1990'))
-var book3=new book('Book3', 'Stryker', 109, new Date('March 15 2008'))
-var book4=new book('Book4', 'Lilypuff', 102, new Date('February 4 2014'))
-var book5=new book('Book5', 'Smudge', 101, new Date('July 6 2015'))
-var book6=new book('Book6', 'Runway', 108, new Date('May 15 2008'))
-var book7=new book('Book7', 'Lilypuff', 103, new Date('February 5 2014'))
+var book1=new book('Book1', 'Luke', 130, new Date('May 31 1985'));
+var book2=new book('Book2', 'Coco', 126, new Date('July 26 1990'));
+var book3=new book('Book3', 'Stryker', 109, new Date('March 15 2008'));
+var book4=new book('Book4', 'Lilypuff', 102, new Date('February 4 2014'));
+var book5=new book('Book5', 'Smudge', 101, new Date('July 6 2015'));
+var book6=new book('Book6', 'Runway', 108, new Date('May 15 2008'));
+var book7=new book('Book7', 'Lilypuff', 103, new Date('February 5 2014'));
